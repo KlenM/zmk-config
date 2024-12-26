@@ -94,10 +94,10 @@
  */
 
             bindings = <
-&kp Copy  &none      &none     &none      &none     &none                                              &kp PG_UP  &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&kp Cut   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR                                           &kp PG_DN  &kp F4  &kp F5  &kp F6  &kp F11  &kp PG_DN
-&trans    &none      &none     &none      &none     &none     &kp Undo                       &kp Redo  &kp HOME   &kp F1  &kp F2  &kp F3  &kp F12  &kp RCTRL
-                                          &trans    &trans    &trans    &trans    &mo ADJ_L  &trans    &trans     &trans
+&kp Copy  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR                                           &kp PG_UP  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&kp Cut   &kp LEFT   &kp UP    &kp DOWN   &kp RIGHT  &none                                              &kp PG_DN  &kp F4  &kp F5  &kp F6  &kp F11  &none
+&trans    &none      &none     &none      &none      &none     &kp Undo                       &kp Redo  &kp HOME   &kp F1  &kp F2  &kp F3  &kp F12  &kp RCTRL
+                                          &trans     &trans    &trans    &trans    &mo ADJ_L  &trans    &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
